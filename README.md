@@ -12,7 +12,7 @@ A computer vision project that detects and classifies geometric shapes (squares 
 </tr>
 </table>
 
-## 🎯 Features
+## Features
 
 - **Real-time shape detection** from camera feed
 - **HSV color filtering** with adjustable trackbars
@@ -20,13 +20,13 @@ A computer vision project that detects and classifies geometric shapes (squares 
 - **Live counting** and comparison display
 - **Noise reduction** and image stabilization
 
-## 📋 Requirements
+## Requirements
 
 ```bash
 pip install opencv-python numpy
 ```
 
-## 🚀 Usage
+## Usage
 
 1. Connect your camera (RGB 5MP USB camera recommended)
 2. Run the script and adjust HSV trackbars to fine-tune color detection
@@ -34,7 +34,7 @@ pip install opencv-python numpy
 
 *Note: This project was developed for specific LED detection in an industrial setting. Parameters may need adjustment for different objects or lighting conditions.*
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Core OpenCV Functions Explained
 
@@ -105,7 +105,7 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 - **Visual feedback**: Highlights detected shapes with colored borders
 - **Classification labels**: Real-time shape identification
 
-## 🎮 Controls
+## Controls
 
 | Control | Function |
 |---------|----------|
@@ -114,7 +114,7 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 | **V_min/V_max** | Adjust value range (brightness) |
 | **ESC Key** | Exit application |
 
-## 📊 Algorithm Flow
+## Algorithm Flow
 
 1. **Capture** → Read frame from webcam
 2. **Blur** → Apply Gaussian filter for noise reduction
@@ -125,30 +125,7 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 7. **Classify** → Analyze vertices to determine shape type
 8. **Display** → Show results with counts and labels
 
-## 🔧 Customization
-
-### Adjust Detection Sensitivity
-```python
-# More stable detection (less sensitive)
-approx = cv2.approxPolyDP(cnt, 0.06 * cv2.arcLength(cnt, True), True)
-
-# More precise detection (more sensitive)  
-approx = cv2.approxPolyDP(cnt, 0.02 * cv2.arcLength(cnt, True), True)
-```
-
-### Change Camera Source
-```python
-cap = cv2.VideoCapture(0)  # Default camera
-cap = cv2.VideoCapture(1)  # External USB camera
-```
-
-### Modify Frame Rate
-```python
-key = cv2.waitKey(30)   # ~33 FPS
-key = cv2.waitKey(100)  # ~10 FPS (more stable)
-```
-
-## 🖼️ Project Images
+## Project Results
 
 <table>
 <tr>
@@ -179,20 +156,7 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 </tr>
 </table>
 
-## 🎯 Applications
 
-- **Quality Control**: Automated shape inspection
-- **Educational Tool**: Computer vision learning and demonstration
-- **Industrial Automation**: Object classification systems
-- **LED Analysis**: Arrangement analysis and counting
-
-## ⚡ Performance Tips
-
-- **Lighting**: Use consistent lighting for best results
-- **Background**: Plain, contrasting backgrounds improve detection
-- **Camera Position**: Stable mounting reduces motion blur
-- **HSV Tuning**: Start with wide ranges, then narrow for precision
-
-## 📝 Note
+## Note
 
 This project was developed for a specific industrial application involving LED detection. The code serves as an educational example of OpenCV shape detection techniques and may require parameter adjustments for different use cases.
