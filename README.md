@@ -14,12 +14,11 @@ A computer vision project that detects and classifies geometric shapes (squares 
 
 ## 🎯 Features
 
-- **Real-time shape detection** from webcam feed
+- **Real-time shape detection** from camera feed
 - **HSV color filtering** with adjustable trackbars
 - **Geometric classification** (squares vs circles)
 - **Live counting** and comparison display
 - **Noise reduction** and image stabilization
-- **Robust contour detection** with morphological operations
 
 ## 📋 Requirements
 
@@ -27,16 +26,13 @@ A computer vision project that detects and classifies geometric shapes (squares 
 pip install opencv-python numpy
 ```
 
-## 🚀 Quick Start
+## 🚀 Usage
 
-1. Clone the repository
-2. Connect your webcam
-3. Run the script:
-```bash
-python shape_detector.py
-```
-4. Adjust HSV trackbars to fine-tune color detection
-5. Press `ESC` to exit
+1. Connect your camera (RGB 5MP USB camera recommended)
+2. Run the script and adjust HSV trackbars to fine-tune color detection
+3. Press `ESC` to exit
+
+*Note: This project was developed for specific LED detection in an industrial setting. Parameters may need adjustment for different objects or lighting conditions.*
 
 ## 🛠️ Technical Implementation
 
@@ -47,15 +43,15 @@ python shape_detector.py
 cap = cv2.VideoCapture(2)
 frame = cv2.GaussianBlur(frame, (5, 5), 0)
 ```
-- **VideoCapture(2)**: Accesses the third camera device (adjust index as needed)
-- **GaussianBlur()**: Reduces noise and lighting variations for more stable detection
+- **VideoCapture(2)**: Accesses camera device (adjust index as needed)
+- **GaussianBlur()**: Reduces noise and lighting variations for stable detection
 
 #### **2. Color Space Conversion**
 ```python
 hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 ```
-- **HSV color space**: More robust than RGB for color-based object detection
-- Better handles lighting variations and shadows
+- **HSV color space**: More robust than RGB for color-based detection
+- Better handles lighting variations
 
 #### **3. HSV Trackbars for Dynamic Filtering**
 ```python
@@ -99,7 +95,7 @@ approx = cv2.approxPolyDP(cnt, 0.04 * cv2.arcLength(cnt, True), True)
 - **Polygon approximation**: Simplifies contour to key vertices
 - **Epsilon = 4%**: Balance between accuracy and stability
 - **4 vertices = Square/Rectangle**
-- **More vertices = Circle/Complex shape**
+- **More vertices = Circle/Other shapes**
 
 #### **8. Contour Drawing & Text Display**
 ```python
@@ -185,22 +181,18 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 
 ## 🎯 Applications
 
-- **Quality Control**: Automated shape inspection in manufacturing
+- **Quality Control**: Automated shape inspection
 - **Educational Tool**: Computer vision learning and demonstration
-- **Prototype Testing**: LED arrangement analysis and counting
-- **Object Sorting**: Automated classification systems
+- **Industrial Automation**: Object classification systems
+- **LED Analysis**: Arrangement analysis and counting
 
 ## ⚡ Performance Tips
 
-- **Lighting**: Use consistent, bright lighting for best results
+- **Lighting**: Use consistent lighting for best results
 - **Background**: Plain, contrasting backgrounds improve detection
 - **Camera Position**: Stable mounting reduces motion blur
 - **HSV Tuning**: Start with wide ranges, then narrow for precision
 
-## 🤝 Contributing
+## 📝 Note
 
-Feel free to submit issues, fork the repository, and create pull requests for improvements.
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
+This project was developed for a specific industrial application involving LED detection. The code serves as an educational example of OpenCV shape detection techniques and may require parameter adjustments for different use cases.
