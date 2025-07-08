@@ -144,14 +144,14 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 
 ## 🖼️ Project Images
 
-![Detection Example](detection_example.jpg)
-*Real-time shape detection with HSV filtering*
-
-![HSV Trackbars](trackbars_interface.jpg)
+![HSV Trackbars](DetectionHSV.png)
 *Interactive HSV adjustment interface*
 
-![Mask Output](mask_visualization.jpg)
-*Binary mask showing filtered objects*
+![Squared leds detection](SquareDetection.png)![Squared leds mask](SquareDetectionMask.png)   
+*Detection of squred leds for whatever position they are found*
+
+![Circular leds detection](CircleDetection.png)![Circular leds mask](CircleDetectionMask.png)
+*Detection of circular leds for whatever position they are found*
 
 ## 🎯 Applications
 
