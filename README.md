@@ -2,6 +2,16 @@
 
 A computer vision project that detects and classifies geometric shapes (squares and circles) in real-time using OpenCV and Python. The system uses HSV color filtering and contour analysis to identify shapes and provides live counting feedback.
 
+<table>
+<tr>
+<td><img src="images/squaredLed.jpg" alt="Squared Led" width="300"/></td>
+<td><img src="images/circularLed.jpg" alt="Circular Led" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Types of led to detect</em></td>
+</tr>
+</table>
+
 ## 🎯 Features
 
 - **Real-time shape detection** from webcam feed
@@ -146,7 +156,7 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 
 <table>
 <tr>
-<td><img src="DetectionHSV.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/DetectionHSV.png" alt="HSV Trackbars" width="300"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Interactive HSV adjustment interface</em></td>
@@ -155,8 +165,8 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 
 <table>
 <tr>
-<td><img src="SquareDetection.png" alt="Square Detection" width="300"/></td>
-<td><img src="SquareDetectionMask.png" alt="Square Mask" width="300"/></td>
+<td><img src="images/SquareDetection.png" alt="Square Detection" width="300"/></td>
+<td><img src="images/SquareDetectionMask.png" alt="Square Mask" width="300"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Detection of squared LEDs regardless of position</em></td>
@@ -165,8 +175,8 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 
 <table>
 <tr>
-<td><img src="CircleDetection.png" alt="Circle Detection" width="300"/></td>
-<td><img src="CircleDetectionMask.png" alt="Circle Mask" width="300"/></td>
+<td><img src="images/CircleDetection.png" alt="Circle Detection" width="300"/></td>
+<td><img src="images/CircleDetectionMask.png" alt="Circle Mask" width="300"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Detection of circular LEDs regardless of position</em></td>

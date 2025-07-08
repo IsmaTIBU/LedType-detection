@@ -49,20 +49,20 @@ while True:
             x, y, w, h = cv2.boundingRect(aprox)
             aspect_ratio = float(w) / h
         
-            cv2.putText(frame, "Cuadrado", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+            cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
             cuad+=1
         else:
-            cv2.putText(frame, "Circulo", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
+            cv2.putText(frame, "Circle", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
             circ+=1
 
         cv2.drawContours(frame, [aprox], 0, (0, 0, 255), 3)
 
     if cuad > circ:
-        cv2.putText(frame, "Leds cuadrados", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+        cv2.putText(frame, "Squared leds", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
     else:
-        cv2.putText(frame, "Leds circulares", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
+        cv2.putText(frame, "Circular leds", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
     
-    cv2.putText(frame, f"Cuadrados:{cuad}, Circulos:{circ}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
+    cv2.putText(frame, f"Squares:{cuad}, Circles:{circ}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
 
 
     cv2.imshow("frame", frame)
