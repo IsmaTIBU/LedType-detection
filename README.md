@@ -147,8 +147,6 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 <img src="DetectionHSV.png" alt="HSV Trackbars" width="500"/>
 <p><em>Interactive HSV adjustment interface</em></p>
 
----
-
 <table>
 <tr>
 <td><img src="SquareDetection.png" alt="Square Detection" width="300"/></td>
@@ -158,8 +156,6 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 <td colspan="2" align="center"><em>Detection of squared LEDs regardless of position</em></td>
 </tr>
 </table>
-
----
 
 <table>
 <tr>
