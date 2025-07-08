@@ -144,14 +144,32 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 
 ## 🖼️ Project Images
 
-![HSV Trackbars](DetectionHSV.png)
-*Interactive HSV adjustment interface*
+<img src="DetectionHSV.png" alt="HSV Trackbars" width="500"/>
+<p><em>Interactive HSV adjustment interface</em></p>
 
-![Squared leds detection](SquareDetection.png)![Squared leds mask](SquareDetectionMask.png)   
-*Detection of squred leds for whatever position they are found*
+---
 
-![Circular leds detection](CircleDetection.png)![Circular leds mask](CircleDetectionMask.png)
-*Detection of circular leds for whatever position they are found*
+<table>
+<tr>
+<td><img src="SquareDetection.png" alt="Square Detection" width="300"/></td>
+<td><img src="SquareDetectionMask.png" alt="Square Mask" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Detection of squared LEDs regardless of position</em></td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td><img src="CircleDetection.png" alt="Circle Detection" width="300"/></td>
+<td><img src="CircleDetectionMask.png" alt="Circle Mask" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Detection of circular LEDs regardless of position</em></td>
+</tr>
+</table>
 
 ## 🎯 Applications
 
