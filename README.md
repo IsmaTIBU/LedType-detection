@@ -144,8 +144,14 @@ key = cv2.waitKey(100)  # ~10 FPS (more stable)
 
 ## 🖼️ Project Images
 
-<img src="DetectionHSV.png" alt="HSV Trackbars" width="500"/>
-<p><em>Interactive HSV adjustment interface</em></p>
+<table>
+<tr>
+<td><img src="DetectionHSV.png" alt="HSV Trackbars" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Interactive HSV adjustment interface</em></td>
+</tr>
+</table>
 
 <table>
 <tr>
