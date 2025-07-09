@@ -1,3 +1,5 @@
+[🇪🇸 Para ver el documento en Español 🇪🇸](es_README.md)
+
 # Real-Time Shape Detection with OpenCV
 
 A computer vision project that detects and classifies geometric shapes (squares and circles) in real-time using OpenCV and Python. The system uses HSV color filtering and contour analysis to identify shapes and provides live counting feedback.
