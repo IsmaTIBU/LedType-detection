@@ -1,4 +1,5 @@
-[Click aqui para ver el documento en Español](es_README.md)
+[Click aqui para ver el documento en Español](es_README.md)  
+[Clickez ici pour lire le document traduit au français](fr_README.md)
 
 # Real-Time Shape Detection with OpenCV
 
