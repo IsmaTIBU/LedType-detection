@@ -237,7 +237,7 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/results.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/results.png" alt="HSV Trackbars" width="900"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Overal results</em></td>
