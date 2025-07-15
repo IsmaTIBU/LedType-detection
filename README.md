@@ -258,6 +258,6 @@ pip install -r required.txt
 </tr>
 </table>
 
-## Note: 
+## Conclusion: 
 While both the OpenCV-based detection and the YOLOv11 model perform reasonably well, there is a notable difference in their versatility across varying real-world conditions.  
 The YOLOv11 model consistently outperforms the OpenCV approach—not only in detection accuracy but especially in its robustness across diverse setups. I tested both methods using several cameras (varying in megapixel count and color saturation) and under different lighting conditions. In all scenarios, the YOLOv11 model demonstrated superior adaptability and more reliable LED detection, regardless of the camera or lighting variability.
