@@ -1,3 +1,9 @@
+> A tener en cuenta: Este proyecto fue desarrollado para una aplicación industrial específica que involucra detección de LEDs. El código sirve como ejemplo educativo de técnicas de detección de formas con OpenCV y puede requerir ajustes de parámetros para diferentes casos de uso.
+
+# Indice:
+- [Deteccion con OpenCV](#deteccion-de-formas-en-tiempo-real-con-opencv)
+- [Deteccion con Yolov11]()
+
 # Detección de Formas en Tiempo Real con OpenCV
 
 Un proyecto de visión por computador que detecta y clasifica formas geométricas (cuadrados y círculos) en tiempo real usando OpenCV y Python. El sistema utiliza filtrado de color HSV y análisis de contornos para identificar formas y proporcionar retroalimentación de conteo en vivo.
@@ -156,6 +162,99 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 </tr>
 </table>
 
-## Nota
+# Detección de Formas en Tiempo Real con YOLO11
 
-Este proyecto fue desarrollado para una aplicación industrial específica que involucra detección de LEDs. El código sirve como ejemplo educativo de técnicas de detección de formas con OpenCV y puede requerir ajustes de parámetros para diferentes casos de uso.
+Un enfoque de aprendizaje profundo para detectar y clasificar formas geométricas (cuadrados y círculos) en tiempo real utilizando YOLO11 y modelos entrenados personalizados. Esta implementación proporciona una precisión y robustez superiores en comparación con los métodos tradicionales de visión por computadora.  
+Este modelo fue entrenado con una NVIDIA RTX A4000 utilizando [RunPod.io](https://www.runpod.io/), una plataforma de computación en la nube que proporciona instancias de GPU bajo demanda y asequibles para aprendizaje automático, entrenamiento de IA, inferencia y otras tareas computacionales intensivas.
+
+## Características
+
+- **Modelo YOLO11 personalizado** entrenado específicamente para detección de formas de LEDs
+- **Inferencia en tiempo real** con soporte de aceleración por GPU
+- **Detección de alta precisión** (99.5% mAP50)
+- **Conteo y clasificación en vivo** con retroalimentación instantánea
+- **Robusto ante variaciones de iluminación** y ángulos de visión
+
+## Requisitos
+
+```bash
+pip install -r required.txt
+```
+
+## Uso
+### Ejecutar detección en tiempo real:
+1. Ve a la sección "Releases" de este repositorio y descarga [Yolo11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) y cárgalo en el mismo directorio que detect.py
+2. Ejecuta ``` detect.py ```
+
+## Entrenamiento del Modelo
+### El modelo YOLO11 fue entrenado en un conjunto de datos personalizado que contiene:
+
+- 102 imágenes de entrenamiento (81 entrenamiento, 21 validación, 10 prueba)
+- ≈500 instancias etiquetadas (círculos y cuadrados)
+- 20 épocas con parada temprana
+- Tamaño de lote: 8 para rendimiento óptimo
+
+### Resultados del Entrenamiento
+| Métrica | Valor | Descripción | 
+|---------|-------|-------------|
+| **mAP50** | 99.5% | Precisión Promedio Media al 50% IoU |  
+| **mAP50-95** | 78.1% | Precisión Promedio Media (50-95% IoU) |  
+| **Precisión** | 99.9% | Exactitud de las predicciones positivas |  
+| **Recall** | 100% | Capacidad para encontrar todas las instancias positivas |  
+
+### Progreso del Entrenamiento
+
+<table>
+<tr>
+<td><img src="images/labels.jpg" width="600"/></td>
+<td><img src="images/labels_correlogram.jpg"  width="600"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Etiquetado</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/confusion_matrix.png" width="600"/></td>
+<td><img src="images/confusion_matrix_normalized.png" width="600"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Matrices de confusión (Sin normalizar/Normalizada)</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/P_curve.png" width="300"/></td>
+<td><img src="images/PR_curve.png" width="300"/></td>
+<td><img src="images/R_curve.png" width="300"/></td>
+</tr>
+<tr>
+<td colspan="3" align="center"><em>Curvas de confianza (Precisión/Precisión-Recall/Recall)</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/Square_anglepic.png" width="900"/></td>
+<td><img src="images/squarepic.png" width="900"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Cuadrados: Se logra una detección correcta de LEDs incluso con hasta 60° de inclinación de cámara respecto a la placa.</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/circle_anglepic.png" width="900"/></td>
+<td><img src="images/circlepic.png" width="900"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Círculos: Se logra una detección correcta de LEDs incluso con hasta 70°-75° de inclinación de cámara respecto a la placa.</em></td>
+</tr>
+</table>
+
+## Conclusión: 
+Aunque tanto la detección basada en OpenCV como el modelo YOLOv11 funcionan razonablemente bien, existe una diferencia notable en su versatilidad bajo diversas condiciones del mundo real.  
+El modelo YOLOv11 supera consistentemente al enfoque de OpenCV—no solo en precisión de detección sino especialmente en su robustez a través de configuraciones diversas. Probé ambos métodos usando varias cámaras (variando en conteo de megapíxeles y saturación de color) y bajo diferentes condiciones de iluminación. En todos los escenarios, el modelo YOLOv11 demostró una adaptabilidad superior y una detección de LEDs más confiable, independientemente de la cámara o variabilidad de iluminación.
