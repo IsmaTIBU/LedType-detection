@@ -190,7 +190,7 @@ pythonpython detect.py
 ## Model Training
 ### The YOLO11 model was trained on a custom dataset containing:
 
-- 112 training images (81 train, 21 validation, 10 test)
+- 102 training images (81 train, 21 validation, 10 test)
 - ≈500 labeled instances (circles and squares)
 - 20 epochs with early stopping
 - Batch size: 8 for optimal performance
