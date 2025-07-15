@@ -206,8 +206,8 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/labels.jpg" alt="HSV Trackbars" width="600"/></td>
-<td><img src="images/labels_correlogram.jpg" alt="HSV Trackbars" width="600"/></td>
+<td><img src="images/labels.jpg" width="600"/></td>
+<td><img src="images/labels_correlogram.jpg"  width="600"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Labeling</em></td>
@@ -216,8 +216,8 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/confusion_matrix.png" alt="HSV Trackbars" width="600"/></td>
-<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="600"/></td>
+<td><img src="images/confusion_matrix.png" width="600"/></td>
+<td><img src="images/confusion_matrix_normalized.png" width="600"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Confusion matrices (Unnormalized/Normalized)</em></td>
@@ -226,9 +226,9 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/P_curve.png" alt="HSV Trackbars" width="300"/></td>
-<td><img src="images/PR_curve.png" alt="HSV Trackbars" width="300"/></td>
-<td><img src="images/R_curve.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/P_curve.png" width="300"/></td>
+<td><img src="images/PR_curve.png" width="300"/></td>
+<td><img src="images/R_curve.png" width="300"/></td>
 </tr>
 <tr>
 <td colspan="3" align="center"><em>Confidance curves (Precission/Precission-Recall/Recall)</em></td>
@@ -237,10 +237,21 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/results.png" alt="HSV Trackbars" width="900"/></td>
+<td><img src="images/Square_anglepic.png" width="900"/></td>
+<td><img src="images/squarepic.png" width="900"/></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><em>Overal results</em></td>
+<td colspan="2" align="center"><em>Squares: Correct LED detection is achieved even with up to 60° camera-to-board tilt.</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/circle_anglepic.png" width="900"/></td>
+<td><img src="images/circlepic.png" width="900"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Circles: Correct LED detection is achieved even with up to 70°-75° camera-to-board tilt.</em></td>
 </tr>
 </table>
 
