@@ -206,8 +206,8 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/labels.jpg" alt="HSV Trackbars" width="300"/></td>
-<td><img src="images/labels_correlogram.jpg" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/labels.jpg" alt="HSV Trackbars" width="600"/></td>
+<td><img src="images/labels_correlogram.jpg" alt="HSV Trackbars" width="600"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Labeling</em></td>
@@ -216,8 +216,8 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/confusion_matrix.png" alt="HSV Trackbars" width="300"/></td>
-<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/confusion_matrix.png" alt="HSV Trackbars" width="600"/></td>
+<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="600"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Confusion matrices (Unnormalized/Normalized)</em></td>
