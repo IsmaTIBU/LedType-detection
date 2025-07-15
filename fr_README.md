@@ -2,7 +2,7 @@
 
 # Indice:
 ### - [Deteccion con OpenCV](#detection-de-formes-en-temps-reel-avec-opencv)
-### - [Deteccion con Yolov11](#detección-de-formas-en-tiempo-real-con-yOLO11)
+### - [Deteccion con Yolov11](#detection-de-formes-en-temps-reel-avec-yolov11)
 
 # Détection de Formes en Temps Réel avec OpenCV
 
@@ -162,7 +162,7 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 </tr>
 </table>
 
-# Détection de Formes en Temps Réel avec YOLO11
+# Détection de Formes en Temps Réel avec Yolov11
 
 Une approche d'apprentissage profond pour détecter et classifier les formes géométriques (carrés et cercles) en temps réel en utilisant YOLO11 et des modèles entraînés personnalisés. Cette implémentation offre une précision et une robustesse supérieures par rapport aux méthodes traditionnelles de vision par ordinateur.  
 L'étiquetage a été effectué avec [Roboflow.com](https://roboflow.com/), une plateforme qui simplifie la gestion des jeux de données, l'annotation, le prétraitement et l'entraînement pour les tâches de vision par ordinateur telles que la détection d'objets, la classification et la segmentation d'images. Elle permet aux utilisateurs de créer des jeux de données personnalisés et d'entraîner des modèles facilement—même sans expérience préalable en apprentissage automatique.  
