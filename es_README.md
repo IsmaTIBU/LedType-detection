@@ -1,13 +1,5 @@
 > A tener en cuenta: Este proyecto fue desarrollado para una aplicación industrial específica que involucra detección de LEDs. El código sirve como ejemplo educativo de técnicas de detección de formas con OpenCV y puede requerir ajustes de parámetros para diferentes casos de uso.
 
-# Indice:
-### - [Deteccion con OpenCV](#detección-de-formas-en-tiempo-real-con-opencv)
-### - [Deteccion con Yolov11](#detección-de-formas-en-tiempo-real-con-yOLO11)
-
-# Detección de Formas en Tiempo Real con OpenCV
-
-Un proyecto de visión por computador que detecta y clasifica formas geométricas (cuadrados y círculos) en tiempo real usando OpenCV y Python. El sistema utiliza filtrado de color HSV y análisis de contornos para identificar formas y proporcionar retroalimentación de conteo en vivo.
-
 <table>
 <tr>
 <td><img src="images/squaredLed.jpg" alt="Led Cuadrado" width="300"/></td>
@@ -17,6 +9,14 @@ Un proyecto de visión por computador que detecta y clasifica formas geométrica
 <td colspan="2" align="center"><em>Tipos de LEDs a detectar</em></td>
 </tr>
 </table>
+
+# Indice:
+### - [Deteccion con OpenCV](#detección-de-formas-en-tiempo-real-con-opencv)
+### - [Deteccion con Yolov11](#detección-de-formas-en-tiempo-real-con-yOLO11)
+
+# Detección de Formas en Tiempo Real con OpenCV
+
+Un proyecto de visión por computador que detecta y clasifica formas geométricas (cuadrados y círculos) en tiempo real usando OpenCV y Python. El sistema utiliza filtrado de color HSV y análisis de contornos para identificar formas y proporcionar retroalimentación de conteo en vivo.
 
 ## Características
 
