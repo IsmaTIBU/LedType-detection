@@ -12,7 +12,7 @@
 
 # Indice:
 ### - [Deteccion con OpenCV](#detección-de-formas-en-tiempo-real-con-opencv)
-### - [Deteccion con YOLOv11](#detección-de-formas-en-tiempo-real-con-yolo11)
+### - [Deteccion con YOLOv11](#detección-de-formas-en-tiempo-real-con-yolov11)
 
 # Detección de Formas en Tiempo Real con OpenCV
 
