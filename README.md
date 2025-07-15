@@ -183,9 +183,8 @@ pip install -r required.txt
 ```
 ## Usage
 ### Run real-time detection:
-```
-pythonpython detect.py
-```
+1. Go to "Releases" division on this repository and download [Yolo11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) and load it on the same directory as detect.py
+2. Execute ``` detect.py ```
 
 ## Model Training
 ### The YOLO11 model was trained on a custom dataset containing:
@@ -205,6 +204,36 @@ pythonpython detect.py
 
 ### Training Progress
 
+<table>
+<tr>
+<td><img src="images/labels.jpg" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/labels_correlogram.jpg" alt="HSV Trackbars" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Labeling</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/confusion_matrix.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Confusion matrices (Unnormalized/Normalized)</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/confusion_matrix.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Confusion matrices (Unnormalized/Normalized)</em></td>
+</tr>
+</table>
 
 ## Note
 
