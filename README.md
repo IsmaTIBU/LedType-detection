@@ -15,7 +15,7 @@
 
 # Index:
 ### - [OpenCV detection](#real-time-shape-detection-with-opencv)
-### - [Yolov11 detection](#real-time-shape-detection-with-yolo11)
+### - [YOLOv11 detection](#real-time-shape-detection-with-yolo11)
 
 # Real-Time Shape Detection with OpenCV
 
@@ -166,15 +166,15 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 </table>
 
 
-# Real-Time Shape Detection with YOLO11
+# Real-Time Shape Detection with YOLOv11
 
-A deep learning approach for detecting and classifying geometric shapes (squares and circles) in real-time using YOLO11 and custom-trained models. This implementation provides superior accuracy and robustness compared to traditional computer vision methods.  
+A deep learning approach for detecting and classifying geometric shapes (squares and circles) in real-time using YOLOv11 and custom-trained models. This implementation provides superior accuracy and robustness compared to traditional computer vision methods.  
 Labeling was done with [Roboflow.com](https://roboflow.com/), a platform that simplifies dataset management, annotation, preprocessing, and training for computer vision tasks such as object detection, classification, and image segmentation. It allows users to create custom datasets and train models easily—even without prior machine learning experience.  
 This model was trained with an NVIDIA RTX A4000 using [RunPod.io](https://www.runpod.io/), a cloud computing platform that provides on-demand, affordable GPU instances for machine learning, AI training, inference, and other compute-intensive tasks. 
 
 ## Features
 
-- **Custom YOLO11 model** trained specifically for LED shape detection
+- **Custom YOLOv11 model** trained specifically for LED shape detection
 - **Real-time inference** with GPU acceleration support
 - **High accuracy detection** (99.5% mAP50)
 - **Live counting and classification** with instant feedback
@@ -187,11 +187,11 @@ pip install -r required.txt
 ```
 ## Usage
 ### Run real-time detection:
-1. Go to "Releases" division on this repository and download [Yolo11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) and load it on the same directory as detect.py
+1. Go to "Releases" division on this repository and download [YOLOv11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) and load it on the same directory as detect.py
 2. Execute ``` detect.py ```
 
 ## Model Training
-### The YOLO11 model was trained on a custom dataset containing:
+### The YOLOv11 model was trained on a custom dataset containing:
 
 - 102 training images (81 train, 21 validation, 10 test)
 - ≈500 labeled instances (circles and squares)
