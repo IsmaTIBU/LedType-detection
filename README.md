@@ -169,6 +169,7 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 # Real-Time Shape Detection with YOLO11
 
 A deep learning approach for detecting and classifying geometric shapes (squares and circles) in real-time using YOLO11 and custom-trained models. This implementation provides superior accuracy and robustness compared to traditional computer vision methods.  
+Labeling was done with [Roboflow.com](https://roboflow.com/), a platform that simplifies dataset management, annotation, preprocessing, and training for computer vision tasks such as object detection, classification, and image segmentation. It allows users to create custom datasets and train models easily—even without prior machine learning experience.  
 This model was trained with an NVIDIA RTX A4000 using [RunPod.io](https://www.runpod.io/), a cloud computing platform that provides on-demand, affordable GPU instances for machine learning, AI training, inference, and other compute-intensive tasks. 
 
 ## Features
