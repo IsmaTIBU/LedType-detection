@@ -226,12 +226,21 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/confusion_matrix.png" alt="HSV Trackbars" width="300"/></td>
-<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="300"/></td>
-<td><img src="images/confusion_matrix_normalized.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/P_curve.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/PR_curve.png" alt="HSV Trackbars" width="300"/></td>
+<td><img src="images/R_curve.png" alt="HSV Trackbars" width="300"/></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><em>Confusion matrices (Unnormalized/Normalized)</em></td>
+<td colspan="3" align="center"><em>Confidance curves (Precission/Precission-Recall/Recall)</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><img src="images/results.png" alt="HSV Trackbars" width="300"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><em>Overal results</em></td>
 </tr>
 </table>
 
