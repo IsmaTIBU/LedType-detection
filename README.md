@@ -3,14 +3,6 @@
 
 > Note: This project was developed for a specific industrial application involving LED detection. The code serves as an educational example of OpenCV shape detection techniques and may require parameter adjustments for different use cases.
 
-# Index:
-### - [OpenCV detection](#real-time-shape-detection-with-opencv)
-### - [Yolov11 detection](#real-time-shape-detection-with-yolo11)
-
-# Real-Time Shape Detection with OpenCV
-
-A computer vision project that detects and classifies geometric shapes (squares and circles) in real-time using OpenCV and Python. The system uses HSV color filtering and contour analysis to identify shapes and provides live counting feedback.
-
 <table>
 <tr>
 <td><img src="images/squaredLed.jpg" alt="Squared Led" width="300"/></td>
@@ -20,6 +12,14 @@ A computer vision project that detects and classifies geometric shapes (squares 
 <td colspan="2" align="center"><em>Types of led to detect</em></td>
 </tr>
 </table>
+
+# Index:
+### - [OpenCV detection](#real-time-shape-detection-with-opencv)
+### - [Yolov11 detection](#real-time-shape-detection-with-yolo11)
+
+# Real-Time Shape Detection with OpenCV
+
+A computer vision project that detects and classifies geometric shapes (squares and circles) in real-time using OpenCV and Python. The system uses HSV color filtering and contour analysis to identify shapes and provides live counting feedback.
 
 ## Features
 
