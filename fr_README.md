@@ -1,8 +1,8 @@
 >Remarque: Ce projet a été développé pour une application industrielle spécifique impliquant la détection de LED. Le code sert d'exemple éducatif des techniques de détection de formes OpenCV et peut nécessiter des ajustements de paramètres pour différents cas d'usage.
 
 # Indice:
-### - [Deteccion con OpenCV](#detection-de-formes-en-temps-reel-avec-opencv)
-### - [Deteccion con Yolov11](#detection-de-formes-en-temps-reel-avec-yolov11)
+### - [Détection avec  OpenCV](#detection-de-formes-en-temps-reel-avec-opencv)
+### - [Détection avec Yolov11](#detection-de-formes-en-temps-reel-avec-yolov11)
 
 # Détection de Formes en Temps Réel avec OpenCV
 
