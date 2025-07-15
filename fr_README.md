@@ -12,7 +12,7 @@
 
 # Indice:
 ### - [Détection avec  OpenCV](#détection-de-formes-en-temps-réel-avec-opencv)
-### - [Détection avec Yolov11](#détection-de-formes-en-temps-réel-avec-yolov11)
+### - [Détection avec YOLOv11](#détection-de-formes-en-temps-réel-avec-yolov11)
 
 # Détection de Formes en Temps Réel avec OpenCV
 
@@ -164,13 +164,13 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 
 # Détection de Formes en Temps Réel avec YOLOv11
 
-Une approche d'apprentissage profond pour détecter et classifier les formes géométriques (carrés et cercles) en temps réel en utilisant YOLO11 et des modèles entraînés personnalisés. Cette implémentation offre une précision et une robustesse supérieures par rapport aux méthodes traditionnelles de vision par ordinateur.  
+Une approche d'apprentissage profond pour détecter et classifier les formes géométriques (carrés et cercles) en temps réel en utilisant YOLOv11 et des modèles entraînés personnalisés. Cette implémentation offre une précision et une robustesse supérieures par rapport aux méthodes traditionnelles de vision par ordinateur.  
 L'étiquetage a été effectué avec [Roboflow.com](https://roboflow.com/), une plateforme qui simplifie la gestion des jeux de données, l'annotation, le prétraitement et l'entraînement pour les tâches de vision par ordinateur telles que la détection d'objets, la classification et la segmentation d'images. Elle permet aux utilisateurs de créer des jeux de données personnalisés et d'entraîner des modèles facilement—même sans expérience préalable en apprentissage automatique.  
 Ce modèle a été entraîné avec une NVIDIA RTX A4000 en utilisant [RunPod.io](https://www.runpod.io/), une plateforme de calcul en nuage qui fournit des instances GPU à la demande et abordables pour l'apprentissage automatique, l'entraînement IA, l'inférence et d'autres tâches computationnelles intensives.
 
 ## Caractéristiques
 
-- **Modèle YOLO11 personnalisé** entraîné spécifiquement pour la détection de formes de LED
+- **Modèle YOLOv11 personnalisé** entraîné spécifiquement pour la détection de formes de LED
 - **Inférence en temps réel** avec support d'accélération GPU
 - **Détection haute précision** (99.5% mAP50)
 - **Comptage et classification en direct** avec retour instantané
@@ -184,11 +184,11 @@ pip install -r required.txt
 
 ## Utilisation
 ### Exécuter la détection en temps réel :
-1. Allez dans la section "Releases" de ce dépôt et téléchargez [Yolo11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) et chargez-le dans le même répertoire que detect.py
+1. Allez dans la section "Releases" de ce dépôt et téléchargez [YOLOv11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) et chargez-le dans le même répertoire que detect.py
 2. Exécutez ```detect.py```
 
 ## Entraînement du Modèle
-### Le modèle YOLO11 a été entraîné sur un jeu de données personnalisé contenant :
+### Le modèle YOLOv11 a été entraîné sur un jeu de données personnalisé contenant :
 
 - 102 images d'entraînement (81 entraînement, 21 validation, 10 test)
 - ≈500 instances étiquetées (cercles et carrés)
