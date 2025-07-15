@@ -242,7 +242,7 @@ pip install -r required.txt
 <td><img src="images/squarepic.png" width="900"/></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><em>Carrés : La détection LED correcte est atteinte même avec une inclinaison caméra-tableau jusqu'à 60°.</em></td>
+<td colspan="2" align="center"><em>Carrés : La détection LED correcte est atteinte même avec une inclinaison caméra-plaque de jusqu'à 60°.</em></td>
 </tr>
 </table>
 
@@ -252,7 +252,7 @@ pip install -r required.txt
 <td><img src="images/circlepic.png" width="900"/></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><em>Cercles : La détection LED correcte est atteinte même avec une inclinaison caméra-tableau jusqu'à 70°-75°.</em></td>
+<td colspan="2" align="center"><em>Cercles : La détection LED correcte est atteinte même avec une inclinaison caméra-plaque de jusqu'à 70°-75°.</em></td>
 </tr>
 </table>
 
