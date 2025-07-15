@@ -227,9 +227,9 @@ pip install -r required.txt
 
 <table>
 <tr>
-<td><img src="images/P_curve.png" width="300"/></td>
-<td><img src="images/PR_curve.png" width="300"/></td>
-<td><img src="images/R_curve.png" width="300"/></td>
+<td><img src="images/P_curve.png" width="400"/></td>
+<td><img src="images/PR_curve.png" width="400"/></td>
+<td><img src="images/R_curve.png" width="400"/></td>
 </tr>
 <tr>
 <td colspan="3" align="center"><em>Curvas de confianza (Precisión/Precisión-Recall/Recall)</em></td>
