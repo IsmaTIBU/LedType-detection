@@ -15,7 +15,7 @@
 
 # Index:
 ### - [OpenCV detection](#real-time-shape-detection-with-opencv)
-### - [YOLOv11 detection](#real-time-shape-detection-with-yolo11)
+### - [YOLOv11 detection](#real-time-shape-detection-with-yOLO11)
 
 # Real-Time Shape Detection with OpenCV
 
