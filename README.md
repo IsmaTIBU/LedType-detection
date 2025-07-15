@@ -1,6 +1,10 @@
 [Click aqui para ver el documento en Español](es_README.md)  
 [Clickez ici pour lire le document traduit au français](fr_README.md)
 
+# Index:
+### - [OpenCV detection](#real-time-shape-detection-with-opencv)
+### - [Yolo11 detection](#real-time-shape-detection-with-yolo11)
+
 # Real-Time Shape Detection with OpenCV
 
 A computer vision project that detects and classifies geometric shapes (squares and circles) in real-time using OpenCV and Python. The system uses HSV color filtering and contour analysis to identify shapes and provides live counting feedback.
@@ -158,6 +162,48 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 <td colspan="2" align="center"><em>Detection of circular LEDs regardless of position</em></td>
 </tr>
 </table>
+
+
+# Real-Time Shape Detection with YOLO11
+
+A deep learning approach for detecting and classifying geometric shapes (squares and circles) in real-time using YOLO11 and custom-trained models. This implementation provides superior accuracy and robustness compared to traditional computer vision methods.
+
+## Features
+
+- **Custom YOLO11 model** trained specifically for LED shape detection
+- **Real-time inference** with GPU acceleration support
+- **High accuracy detection** (99.5% mAP50)
+- **Live counting and classification** with instant feedback
+- **Robust to lighting variations** and viewing angles
+
+## Requirements
+
+```bash
+pip install -r required.txt
+```
+## Usage
+### Run real-time detection:
+```
+pythonpython detect.py
+```
+
+## Model Training
+### The YOLO11 model was trained on a custom dataset containing:
+
+- 112 training images (81 train, 21 validation, 10 test)
+- ≈500 labeled instances (circles and squares)
+- 20 epochs with early stopping
+- Batch size: 8 for optimal performance
+
+### Training Results
+| Metric | Value | Description | 
+|--------|-------|-------------|
+| **mAP50** | 99.5% | Mean Average Precision at 50% IoU |  
+| **mAP50-95** | 78.1% | Mean Average Precision (50-95% IoU) |  
+| **Precision** | 99.9% | Accuracy of positive predictions |  
+| **Recall** | 100% | Ability to find all positive instances |  
+
+### Training Progress
 
 
 ## Note
