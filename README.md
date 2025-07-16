@@ -193,7 +193,7 @@ pip install -r required.txt
 ## Model Training
 ### The YOLOv11 model was trained on a custom dataset containing:
 
-- 247 training images (81 train, 21 validation, 10 test)
+- 247 training images (176 train, 48 validation, 23 test)
 - ≈1175 labeled instances (circles and squares)
 - 35 epochs with early stopping
 - Batch size: 8 for optimal performance
@@ -202,7 +202,7 @@ pip install -r required.txt
 | Metric | Value | Description | 
 |--------|-------|-------------|
 | **mAP50** | 99.5% | Mean Average Precision at 50% IoU |  
-| **mAP50-95** | 78.1% | Mean Average Precision (50-95% IoU) |  
+| **mAP50-95** | 76.7% | Mean Average Precision (50-95% IoU) |  
 | **Precision** | 99.9% | Accuracy of positive predictions |  
 | **Recall** | 100% | Ability to find all positive instances |  
 
