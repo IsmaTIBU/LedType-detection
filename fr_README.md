@@ -168,6 +168,9 @@ Une approche d'apprentissage profond pour détecter et classifier les formes gé
 L'étiquetage a été effectué avec [Roboflow.com](https://roboflow.com/), une plateforme qui simplifie la gestion des jeux de données, l'annotation, le prétraitement et l'entraînement pour les tâches de vision par ordinateur telles que la détection d'objets, la classification et la segmentation d'images. Elle permet aux utilisateurs de créer des jeux de données personnalisés et d'entraîner des modèles facilement—même sans expérience préalable en apprentissage automatique.  
 Ce modèle a été entraîné avec une NVIDIA RTX A4000 en utilisant [RunPod.io](https://www.runpod.io/), une plateforme de calcul en nuage qui fournit des instances GPU à la demande et abordables pour l'apprentissage automatique, l'entraînement IA, l'inférence et d'autres tâches computationnelles intensives.
 
+> ⚠️ **Atention**  
+> Une camera RGB d'au moins 4 Megapixels est recommandée pour obtenir des résultats acceptables
+
 ## Caractéristiques
 
 - **Modèle YOLOv11 personnalisé** entraîné spécifiquement pour la détection de formes de LED
