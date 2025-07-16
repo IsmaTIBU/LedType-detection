@@ -168,6 +168,9 @@ Un enfoque de aprendizaje profundo para detectar y clasificar formas geométrica
 El etiquetado del dataset se hizo con [Roboflow.com](https://roboflow.com/), una plataforma que facilita la gestión, anotación, preprocesamiento y entrenamiento de modelos de visión por computadora, especialmente para detección de objetos, clasificación y segmentación de imágenes. Permite crear datasets personalizados y entrenar modelos de forma sencilla, incluso sin experiencia previa en machine learning.  
 Este modelo fue entrenado con una NVIDIA RTX A4000 utilizando [RunPod.io](https://www.runpod.io/), una plataforma de computación en la nube que proporciona instancias de GPU bajo demanda y asequibles para aprendizaje automático, entrenamiento de IA, inferencia y otras tareas computacionales intensivas.
 
+> ⚠️ **Atencion**  
+> Se recomienda como minimo una camara RGB de 4 Megapixeles para obtener resultados decentes
+
 ## Características
 
 - **Modelo YOLOv11 personalizado** entrenado específicamente para detección de formas de LEDs
