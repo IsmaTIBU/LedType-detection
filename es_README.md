@@ -199,7 +199,7 @@ pip install -r required.txt
 | Métrica | Valor | Descripción | 
 |---------|-------|-------------|
 | **mAP50** | 99.5% | Precisión Promedio Media al 50% IoU |  
-| **mAP50-95** | 78.1% | Precisión Promedio Media (50-95% IoU) |  
+| **mAP50-95** | 76.7% | Precisión Promedio Media (50-95% IoU) |  
 | **Precisión** | 99.9% | Exactitud de las predicciones positivas |  
 | **Recall** | 100% | Capacidad para encontrar todas las instancias positivas |  
 
@@ -242,6 +242,10 @@ pip install -r required.txt
 <td><img src="images/squarepic.png" width="900"/></td>
 </tr>
 <tr>
+<td><img src="images/sq_gr_ang.png" width="900"/></td>
+<td><img src="images/sq_gr.png" width="900"/></td>
+</tr>
+<tr>
 <td colspan="2" align="center"><em>Cuadrados: Se logra una detección correcta de LEDs incluso con hasta 60° de inclinación de cámara respecto a la placa.</em></td>
 </tr>
 </table>
@@ -250,6 +254,10 @@ pip install -r required.txt
 <tr>
 <td><img src="images/circle_anglepic.png" width="900"/></td>
 <td><img src="images/circlepic.png" width="900"/></td>
+</tr>
+<tr>
+<td><img src="images/circ_peq_ang.png" width="900"/></td>
+<td><img src="images/circ_peq.png" width="900"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Círculos: Se logra una detección correcta de LEDs incluso con hasta 70°-75° de inclinación de cámara respecto a la placa.</em></td>
