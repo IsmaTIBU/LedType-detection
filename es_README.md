@@ -169,7 +169,7 @@ El etiquetado del dataset se hizo con [Roboflow.com](https://roboflow.com/), una
 Este modelo fue entrenado con una NVIDIA RTX A4000 utilizando [RunPod.io](https://www.runpod.io/), una plataforma de computación en la nube que proporciona instancias de GPU bajo demanda y asequibles para aprendizaje automático, entrenamiento de IA, inferencia y otras tareas computacionales intensivas.
 
 > ⚠️ **Atencion**  
-> Se recomienda como minimo una camara RGB de 4 Megapixeles para obtener resultados decentes
+> Se recomienda una camara RGB de como minimo 4 Megapixeles para obtener resultados decentes
 
 ## Características
 
