@@ -166,7 +166,7 @@ cv2.putText(frame, "Square", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 
 
 Une approche d'apprentissage profond pour détecter et classifier les formes géométriques (carrés et cercles) en temps réel en utilisant YOLOv11 et des modèles entraînés personnalisés. Cette implémentation offre une précision et une robustesse supérieures par rapport aux méthodes traditionnelles de vision par ordinateur.  
 L'étiquetage a été effectué avec [Roboflow.com](https://roboflow.com/), une plateforme qui simplifie la gestion des jeux de données, l'annotation, le prétraitement et l'entraînement pour les tâches de vision par ordinateur telles que la détection d'objets, la classification et la segmentation d'images. Elle permet aux utilisateurs de créer des jeux de données personnalisés et d'entraîner des modèles facilement—même sans expérience préalable en apprentissage automatique.  
-Ce modèle a été entraîné avec une NVIDIA RTX A4000 en utilisant [RunPod.io](https://www.runpod.io/), une plateforme de calcul en nuage qui fournit des instances GPU à la demande et abordables pour l'apprentissage automatique, l'entraînement IA, l'inférence et d'autres tâches computationnelles intensives.
+Ce modèle a été entraîné avec une NVIDIA RTX 3070 (8GB VRAM) en utilisant [RunPod.io](https://www.runpod.io/), une plateforme de calcul en nuage qui fournit des instances GPU à la demande et abordables pour l'apprentissage automatique, l'entraînement IA, l'inférence et d'autres tâches computationnelles intensives.
 
 > ⚠️ **Atention**  
 > Une camera RGB d'au moins 4 Megapixels est recommandée pour obtenir des résultats acceptables
