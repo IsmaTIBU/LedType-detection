@@ -193,9 +193,9 @@ pip install -r required.txt
 ## Model Training
 ### The YOLOv11 model was trained on a custom dataset containing:
 
-- 102 training images (81 train, 21 validation, 10 test)
-- ≈500 labeled instances (circles and squares)
-- 20 epochs with early stopping
+- 247 training images (81 train, 21 validation, 10 test)
+- ≈1175 labeled instances (circles and squares)
+- 35 epochs with early stopping
 - Batch size: 8 for optimal performance
 
 ### Training Results
@@ -245,6 +245,10 @@ pip install -r required.txt
 <td><img src="images/squarepic.png" width="900"/></td>
 </tr>
 <tr>
+<td><img src="images/sq_gr_ang.png" width="900"/></td>
+<td><img src="images/sq_gr.png" width="900"/></td>
+</tr>
+<tr>
 <td colspan="2" align="center"><em>Squares: Correct LED detection is achieved even with up to 60° camera-to-board tilt.</em></td>
 </tr>
 </table>
@@ -253,6 +257,10 @@ pip install -r required.txt
 <tr>
 <td><img src="images/circle_anglepic.png" width="900"/></td>
 <td><img src="images/circlepic.png" width="900"/></td>
+</tr>
+<tr>
+<td><img src="images/circ_peq_ang.png" width="900"/></td>
+<td><img src="images/circ_peq.png" width="900"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Circles: Correct LED detection is achieved even with up to 70°-75° camera-to-board tilt.</em></td>
