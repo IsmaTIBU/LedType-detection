@@ -35,7 +35,7 @@ pip install opencv-python numpy
 ## Uso
 
 1. Conecta tu cámara (se recomienda cámara USB RGB de 5MP)
-2. Ejecuta el script y ajusta las barras de seguimiento HSV para afinar la detección de color
+2. Ejecuta ```OpenCV.py``` y ajusta las barras de seguimiento HSV para afinar la detección de color
 3. Presiona `ESC` para salir
 
 *Nota: Este proyecto fue desarrollado para detección específica de LEDs en un entorno industrial. Los parámetros pueden necesitar ajustes para diferentes objetos o condiciones de iluminación.*
@@ -188,7 +188,7 @@ pip install -r required.txt
 ## Uso
 ### Ejecutar detección en tiempo real:
 1. Ve a la sección "Releases" de este repositorio y descarga [YOLOv11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) y cárgalo en el mismo directorio que detect.py
-2. Ejecuta ``` detect.py ```
+2. Ejecuta ``` YOLO.py ```
 
 ## Entrenamiento del Modelo
 ### El modelo YOLOv11 fue entrenado en un conjunto de datos personalizado que contiene:
