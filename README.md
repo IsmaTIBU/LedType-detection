@@ -192,7 +192,7 @@ pip install -r required.txt
 ## Usage
 ### Run real-time detection:
 1. Go to "Releases" division on this repository and download [YOLOv11_Model](https://github.com/IsmaTIBU/LedType_detection/releases/tag/Yolo11_Model) and load it on the same directory as detect.py
-2. Execute ``` detect.py ```
+2. Execute ``` YOLO.py ```
 
 ## Model Training
 ### The YOLOv11 model was trained on a custom dataset containing:
