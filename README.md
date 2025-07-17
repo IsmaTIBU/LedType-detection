@@ -38,7 +38,7 @@ pip install opencv-python numpy
 ## Usage
 
 1. Connect your camera (RGB 5MP USB camera recommended)
-2. Run the script and adjust HSV trackbars to fine-tune color detection
+2. Run ```OpenCV.py``` and adjust HSV trackbars to fine-tune color detection
 3. Press `ESC` to exit
 
 *Note: This project was developed for specific LED detection in an industrial setting. Parameters may need adjustment for different objects or lighting conditions.*
