@@ -245,6 +245,15 @@ pip install -r required.txt
 
 <table>
 <tr>
+<td><img src="images/results.png" width="1000"/></td>
+</tr>
+<tr>
+<td colspan="1" align="center"><em>Overall results</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td><img src="images/Square_anglepic.png" width="900"/></td>
 <td><img src="images/squarepic.png" width="900"/></td>
 </tr>
