@@ -248,7 +248,7 @@ pip install -r required.txt
 <td><img src="images/results.png" width="1000"/></td>
 </tr>
 <tr>
-<td colspan="1" align="center"><em>Overall results</em></td>
+<td colspan="1" align="center"><em>Overall training results</em></td>
 </tr>
 </table>
 
