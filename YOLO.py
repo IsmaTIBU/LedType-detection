@@ -1,4 +1,3 @@
-# Detección YOLO11 - Simple y elegante
 import cv2
 from ultralytics import YOLO
 
