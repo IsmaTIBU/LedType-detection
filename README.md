@@ -10,6 +10,7 @@
   </a>
 </div>
 
+
 > Note: This project was developed for a specific industrial application involving LED detection. The code serves as an educational example of OpenCV shape detection techniques and may require parameter adjustments for different use cases.
 
 <table>
