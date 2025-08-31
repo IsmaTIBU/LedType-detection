@@ -1,5 +1,14 @@
-[Click aqui para ver el documento en Español](es_README.md)  
-[Clickez ici pour lire le document traduit au français](fr_README.md)
+<div align="left">
+  <a href="fr_README.md">
+    <img src="https://img.shields.io/badge/lang-fr-blue">
+  </a>
+</div>
+
+<div align="left">
+  <a href="es_README.md">
+    <img src="https://img.shields.io/badge/lang-es-red">
+  </a>
+</div>
 
 > Note: This project was developed for a specific industrial application involving LED detection. The code serves as an educational example of OpenCV shape detection techniques and may require parameter adjustments for different use cases.
 
