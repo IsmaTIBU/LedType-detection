@@ -1,4 +1,5 @@
-> A tener en cuenta: Este proyecto fue desarrollado para una aplicación industrial específica que involucra detección de LEDs. El código sirve como ejemplo educativo de técnicas de detección de formas con OpenCV y puede requerir ajustes de parámetros para diferentes casos de uso.
+> [!Note]
+> Este proyecto fue desarrollado para una aplicación industrial específica que involucra detección de LEDs. El código sirve como ejemplo educativo de técnicas de detección de formas con OpenCV y puede requerir ajustes de parámetros para diferentes casos de uso.
 
 <table>
 <tr>
@@ -168,7 +169,7 @@ Un enfoque de aprendizaje profundo para detectar y clasificar formas geométrica
 El etiquetado del dataset se hizo con [Roboflow.com](https://roboflow.com/), una plataforma que facilita la gestión, anotación, preprocesamiento y entrenamiento de modelos de visión por computadora, especialmente para detección de objetos, clasificación y segmentación de imágenes. Permite crear datasets personalizados y entrenar modelos de forma sencilla, incluso sin experiencia previa en machine learning.  
 Este modelo fue entrenado con una NVIDIA RTX 3070 (8GB VRAM) utilizando [RunPod.io](https://www.runpod.io/), una plataforma de computación en la nube que proporciona instancias de GPU bajo demanda y asequibles para aprendizaje automático, entrenamiento de IA, inferencia y otras tareas computacionales intensivas.
 
-> ⚠️ **Atencion**  
+> [!Warning] 
 > Se recomienda una camara RGB de como minimo 4 Megapixeles para obtener resultados decentes
 
 ## Características
